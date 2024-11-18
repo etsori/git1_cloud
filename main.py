@@ -8,8 +8,14 @@ def printhi(name):
 def calc(a, b):
     return a + b
 
+def bye(s):
+    print(s)
+
 
 if __name__ == '__main__':
     printhi('Pycharm')
     print(calc(10, 34))
+    bye('Пока')
+
+
 
